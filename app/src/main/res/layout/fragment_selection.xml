@@ -21,6 +21,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="1. Throw it away."
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
@@ -32,6 +33,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="2. Water the flowers."
             android:layout_marginBottom="10dp"
             android:background="@drawable/selection"
@@ -42,6 +44,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="3. Cut it off with sissors."
             android:layout_marginBottom="10dp"
             android:background="@drawable/selection"
@@ -52,6 +55,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center"
+            android:textColor="@color/black"
             android:text="4. Make them as dried flower."
             android:layout_marginBottom="10dp"
             android:background="@drawable/selection"
@@ -59,6 +63,7 @@
 
     </LinearLayout>
 <ImageView
+    android:id="@+id/btn_back"
     android:layout_width="100dp"
     android:layout_height="100dp"
     android:src="@drawable/previous"
